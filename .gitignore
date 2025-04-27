@@ -172,3 +172,34 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# =====================================
+# 基础忽略规则
+# =====================================
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置
+.vscode/
+*.iml
+*.pyc
+
+# 虚拟环境
+.conda/
+
+# Python 包相关
+*.egg
+*.egg-info/
+dist/
+build/
+site-packages/
+
+# Node.js 依赖
+node_modules/
+
+# =====================================
+# 其他临时文件
+# =====================================
+*.tmp
+*.swp
